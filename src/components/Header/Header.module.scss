@@ -1,0 +1,114 @@
+.main {
+    background: url(../../assets/4.gif);
+    background-position-y: 46%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: 1px transparent solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    width: auto;
+    height: 80px;
+    font-family: 'Manrope', sans-serif;
+}
+  
+.label {
+    text-decoration: none;
+    color: #1890ff;
+    margin-left: 22px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+.label:hover {
+	color: #fff;
+}
+  
+.authorization {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    // gap: 19px;
+}
+  
+.link {
+    text-decoration: none;
+    color: #1890ff;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 12px 10px;
+    border-radius: 5px;
+    border: 1px transparent solid;
+  
+    &:hover {
+        color: #fff;
+    }
+}
+  
+.signUp {
+    color: #fff;
+    
+    margin-right: 22px;
+  
+    &:hover {
+      
+      color: #52c41a;
+      
+    }
+}
+  
+.menu {
+    display: flex;
+    align-items: center;
+   
+}
+  
+.user {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    color: #fff;
+}
+  
+.userName {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    cursor: pointer;
+    &:hover {
+        color: #52c41a;
+        
+      }
+}
+  
+.user__avatar {
+    height: 46px;
+    width: 46px;
+}
+
+.create-article {
+    font-size: 18px;
+    line-height: 22px;
+    color: #1890ff;
+    padding: 6px 10px;
+    
+    border-radius: 5px;
+    &:hover {
+      
+      color: #fff;
+      
+    }
+}
+  
+.log-out {
+    color: #1890ff;
+    font-size: 17px;
+    &:hover {
+      
+      color: #fff;
+      
+    }
+}
