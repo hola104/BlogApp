@@ -107,7 +107,7 @@ function SignIn() {
 
         <span className={styles.signInLabel}>
           Don`t have an account?
-          <Link className={styles.signUp} to="/SignUp">
+          <Link className={styles.signUp} to="/sign-up">
             Sign Up.
           </Link>
         </span>

@@ -190,7 +190,7 @@ function SignUp() {
 
         <span className={styles.signInLabel}>
           Already have an account?{" "}
-          <Link className={styles.signIn} to="/SignIn">
+          <Link className={styles.signIn} to="/sign-in">
             Sign In
           </Link>
         </span>
